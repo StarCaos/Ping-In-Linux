@@ -7,3 +7,6 @@ VARBB=$(ping -c 5 www.cnn.com | grep rtt | cut -d '/' -f)
 
 echo "Ping time to default gateway: " $VARBA
 echo "Ping time to cnn.com: " $VARBB
+
+
+This is to see how long it takes to reach the desired desination
